@@ -42,7 +42,7 @@
 
 #if NRF_MODULE_ENABLED(NRF_CRYPTO) && NRF_MODULE_ENABLED(NRF_CRYPTO_BACKEND_MBEDTLS)
 
-#include "mbedtls_backend_hash.h"
+// #include "mbedtls_backend_hash.h"
 #include "nrf_crypto_init.h"
 #include "nrf_crypto_types.h"
 #include "nrf_crypto_error.h"

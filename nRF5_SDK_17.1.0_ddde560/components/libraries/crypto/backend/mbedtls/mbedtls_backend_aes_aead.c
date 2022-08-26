@@ -43,7 +43,7 @@
 #if NRF_MODULE_ENABLED(NRF_CRYPTO)
 
 #include "nrf_crypto_error.h"
-#include "mbedtls_backend_aes_aead.h"
+// #include "mbedtls_backend_aes_aead.h"
 
 #if NRF_MODULE_ENABLED(NRF_CRYPTO_MBEDTLS_AES_AEAD)
 

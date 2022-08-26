@@ -49,7 +49,7 @@
 #include "nrf_crypto_ecdh_shared.h"
 #include "nrf_crypto_shared.h"
 #include "nrf_crypto_ecdh.h"
-#include "optiga_backend_ecc.h"
+// #include "optiga_backend_ecc.h"
 
 /*lint -save -e????*/
 #include "optiga/optiga_crypt.h"

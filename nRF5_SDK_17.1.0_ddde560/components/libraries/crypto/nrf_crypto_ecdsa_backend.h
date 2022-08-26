@@ -51,10 +51,10 @@
 // Include all backends
 #include "cc310_backend_ecdsa.h"
 #include "cc310_bl_backend_ecdsa.h"
-#include "mbedtls_backend_ecdsa.h"
+// #include "mbedtls_backend_ecdsa.h"
 #include "oberon_backend_ecdsa.h"
 #include "micro_ecc_backend_ecdsa.h"
-#include "optiga_backend_ecdsa.h"
+// #include "optiga_backend_ecdsa.h"
 
 
 #ifdef __cplusplus

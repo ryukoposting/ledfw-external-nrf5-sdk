@@ -57,7 +57,7 @@
 #include "optiga/optiga_util.h"
 #include "optiga/optiga_crypt.h"
 #include "nrfx_clock.h"
-#include "optiga_backend_ecc.h"
+// #include "optiga_backend_ecc.h"
 #include "ecdsa_utils.h"
 
 #include "compiler_abstraction.h"

@@ -40,7 +40,7 @@
 
 
 #include <string.h>
-#include "optiga_backend_utils.h"
+// #include "optiga_backend_utils.h"
 #include "nrf_crypto_error.h"
 
 /**

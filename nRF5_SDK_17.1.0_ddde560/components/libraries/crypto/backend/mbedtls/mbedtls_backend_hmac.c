@@ -44,7 +44,7 @@
 #include "nrf_log.h"
 #include "nrf_crypto_error.h"
 #include "nrf_crypto_types.h"
-#include "mbedtls_backend_hmac.h"
+// #include "mbedtls_backend_hmac.h"
 
 
 #if NRF_MODULE_ENABLED(NRF_CRYPTO_BACKEND_MBEDTLS_HMAC_SHA256)

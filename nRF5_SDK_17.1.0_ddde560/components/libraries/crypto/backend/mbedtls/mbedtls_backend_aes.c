@@ -47,7 +47,7 @@
 #include "mbedtls/cipher.h"
 /*lint -restore*/
 #include "nrf_crypto_error.h"
-#include "mbedtls_backend_aes.h"
+// #include "mbedtls_backend_aes.h"
 
 #if NRF_MODULE_ENABLED(NRF_CRYPTO_MBEDTLS_AES)
 

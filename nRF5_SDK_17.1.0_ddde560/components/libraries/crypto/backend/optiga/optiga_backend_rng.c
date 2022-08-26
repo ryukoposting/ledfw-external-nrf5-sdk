@@ -45,7 +45,7 @@
 #if NRF_MODULE_ENABLED(NRF_CRYPTO_BACKEND_OPTIGA_RNG)
 
 #include "nrf_crypto_rng.h"
-#include "optiga_backend_rng.h"
+// #include "optiga_backend_rng.h"
 #include "optiga/optiga_crypt.h"
 
 
