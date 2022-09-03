@@ -2066,6 +2066,10 @@ UBaseType_t uxMessagesWaiting;
 	}
 	else if( xPosition == queueSEND_TO_BACK )
 	{
+		ASSERT((uint32_t)pxQueue->pcWriteTo < 0x20040000);
+		ASSERT((uint32_t)pxQueue->pcWriteTo > 0);
+		ASSERT((uint32_t)pvItemToQueue < 0x20040000);
+		ASSERT((uint32_t)pvItemToQueue > 0);
 		( void ) memcpy( ( void * ) pxQueue->pcWriteTo, pvItemToQueue, ( size_t ) pxQueue->uxItemSize ); /*lint !e961 !e418 MISRA exception as the casts are only redundant for some ports, plus previous logic ensures a null pointer can only be passed to memcpy() if the copy size is 0. */
 		pxQueue->pcWriteTo += pxQueue->uxItemSize;
 		if( pxQueue->pcWriteTo >= pxQueue->pcTail ) /*lint !e946 MISRA exception justified as comparison of pointers is the cleanest solution. */
